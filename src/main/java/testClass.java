@@ -10,7 +10,6 @@ public class testClass {
     public static void main(String[] args) throws IOException {
         File file= new File("C:\\Users\\doug\\Desktop\\dev\\png\\image-189.png");
         BufferedImage image = ImageIO.read(file);
-        // Getting pixel color by position x and y
         int totalheight = image.getHeight();
         int totalwidth = image.getWidth();
         int pixelnumber = 0;
